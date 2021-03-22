@@ -26,7 +26,7 @@ const Introduction = () => {
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Tools</h1>
-					<p className="heading-block-sub">As a Front End Developer the train should never stop, so that is exactly what i am trying to do. Therefore I have the inquisitiveness of a Junior, which helps me to keep innovating and developing myself continuously. As Jack Ma said: "There are no experts of tomorrow, only of yesterday". Vanilla CSS and JavaScript are my favorite ones, so in spare time I experiment with that a lot.  </p>
+					<p className="heading-block-sub">As a Front End Developer the train should never stop, so that is exactly what I will do. Therefore I have the inquisitiveness of a Junior, which helps me to keep innovating and developing myself continuously. As Jack Ma said: "There are no experts of tomorrow, only of yesterday". Vanilla CSS and JavaScript are my favorite ones, so in spare time I experiment with that a lot.  </p>
 				</div>
 
 				<div className="tools-content-block">
