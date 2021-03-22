@@ -8,7 +8,7 @@ const Introduction = () => {
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Introduction</h1>
-					<p className="heading-block-sub">Have been started with programming almost 2 years ago, and as you probably noticed I graduated my Bachelor of Business Administration at University of Applied Sciences (Amsterdam) in 2013. With that in mind I gained lot of marketing knowledge that can be useful in this fast-paced and international environment. </p>
+					<p className="heading-block-sub">More than 3 years work experience as Front End Developer and since then I only focuses on ReactJS and also recently gained knowledge on TypeScript. I graduated my Bachelor of Business Administration at University of Applied Sciences (Amsterdam) in 2013. With that in mind I gained lot of marketing knowledge that can be useful in this fast-paced and international environment. </p>
 				</div>
 
 				<div className="introduction-content">
