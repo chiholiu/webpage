@@ -34,7 +34,7 @@ const Introduction = () => {
 			</div>   
 			<div className="introduction-container">
 				<div className="introduction-container-block introduction-container-content">
-					<p>Love traveling to China and learn from this amazing country how they speed up technological development. In 2018 I got the chance to see Alibaba with my own eyes, so I decided to go to Alibaba headquarter in Hangzhou and since then my mindset is completely different. There is no limit. </p>
+					<p>Love traveling to China and learn from this amazing country how they speed up technological development. In 2018 I got the chance to visit the office Alibaba headquarter in Hangzhou and since then my mindset is completely changed in a positive way. </p>
 				</div>
 				<div className="introduction-container-block introduction-container-image">
 					<figure>
