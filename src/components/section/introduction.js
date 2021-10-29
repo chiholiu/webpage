@@ -32,6 +32,16 @@ const Introduction = () => {
 					</div>
 				</div>
 			</div>   
+			<div className="introduction-container">
+				<div className="introduction-container-block introduction-container-content">
+					<p>Love traveling to China and learn how they speed up technological development and in fact I went to Alibaba in 2018 to withness with my own eyes, so I decided to go to Alibaba headquarter in Hangzhou and since then my mindset is completely different. There is no limit. </p>
+				</div>
+				<div className="introduction-container-block introduction-container-image">
+					<figure>
+						<img src="images/picture-ali.jpg" className="introduction-alibaba-image"/>
+					</figure>
+				</div>
+			</div>
 		</section>
 	);
 };

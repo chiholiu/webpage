@@ -5,7 +5,7 @@ const allSections = [{'portfolio': [
 	{ 'id': 2, 'header': 'G4S','image': 'images/g4s.png', 'url': 'https://www.g4spay.nl/'},
 	{ 'id': 3, 'header': 'Royal Flora Holland','image': 'images/royal-flora-holland.png', 'url': 'https://www.royalfloraholland.com/en'},
 	{ 'id': 4, 'header': 'Subaru email campaign','image': 'images/subaru.png', 'url': 'https://www.subaru.nl/'},
-	{ 'id': 5, 'header': 'Anders Reizen','image': 'images/anders-reizen.png', 'url': 'https://www.andersreizen.nu/'},
+	{ 'id': 5, 'header': 'Anders Reizen','image': 'images/anders-reizen.png', 'url': 'https://www.rebelsrampage.com/'},
 	{ 'id': 6, 'header': 'Conclusion Digital', 'image': 'images/conclusion.png', 'url': 'https://thehumanperspective.nl/'}
 
 ]}];
@@ -29,7 +29,7 @@ const Portfolio = () => {
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Portfolio</h1>
-					<p className="heading-block-sub">A brief selection of some clients me and my (former) team have worked on the last years. If you click on the Conclusion logo you will exactly get an indication of my creativity and the way how I style website from scratch. Furthermore if you really want to know my JavaScript skills, I would recommend you to click on the link in the Footer that redirects you to my GitHub account. This current portfolio website is also made in ReactJS ;) </p>
+					<p className="heading-block-sub">A brief selection of some clients me and my (former) team have worked on the last years. If you click on the Conclusion logo you will exactly get an indication of my creativity and the way how I style website from scratch. Furthermore if you really want to know my JavaScript skills, I would recommend you to click on the link in the Footer that redirects you to my GitHub account. </p>
 				</div>
 
 				<div className="portfolio-block">
