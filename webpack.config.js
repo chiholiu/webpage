@@ -5,50 +5,54 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: {
-       a:  ["./src/index.js", "./src/_main.scss"]
-    },      
-    output: {
-        filename: 'js/main.js',
-        path: path.resolve(__dirname + '/public')
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader"
-                }
-            },
-            {
-                test: /\.scss$/,
-                use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                    },
-                    "css-loader", "sass-loader"
-                ]
-            }
-        ]
-    },
-    // add this line
-    plugins: [
-        new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "index.html"
-        }),
-        new MiniCssExtractPlugin({
-            filename: "css/main.css"
-        }),
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from:'src/images', 
-                    to:'images'
-                } 
-            ],
-        }),
-        new CleanWebpackPlugin(),
-    ]
+	mode: 'production',
+	entry: {
+		a:  ["./src/index.js", "./src/_main.scss"]
+	},      
+	output: {
+		filename: 'js/main.js',
+		path: path.resolve(__dirname + '/public')
+	},
+	performance : {
+		hints : false
+	},
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: {
+					loader: "babel-loader"
+				}
+			},
+			{
+				test: /\.scss$/,
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader,
+					},
+					"css-loader", "sass-loader"
+				]
+			}
+		]
+	},
+	// add this line
+	plugins: [
+		new HtmlWebPackPlugin({
+			template: "./src/index.html",
+			filename: "index.html"
+		}),
+		new MiniCssExtractPlugin({
+			filename: "css/main.css"
+		}),
+		new CopyWebpackPlugin({
+			patterns: [
+				{
+					from:'src/images', 
+					to:'images'
+				} 
+			],
+		}),
+		new CleanWebpackPlugin(),
+	]
 };

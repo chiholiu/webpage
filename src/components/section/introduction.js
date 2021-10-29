@@ -18,7 +18,7 @@ const Introduction = () => {
                        
 					</div>
 					<div className="introduction-content-block">
-						<div className="introduction-content-block-header">32</div>
+						<div className="introduction-content-block-header">33</div>
 						<div className="introduction-content-block-header-sub">Age</div>
                         
 					</div>
