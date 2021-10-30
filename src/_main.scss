@@ -82,11 +82,12 @@ html {
             }
             &-header {
                 font-size: 32px;
-                font-weight: 900;
+                font-weight: bold;
                 color: $default-color;
                 &-sub {
-                    font-size: 16px;
+                    font-size: 14px;
                     color: $black-color;
+                    text-transform: uppercase;
                 }
             }
         }
