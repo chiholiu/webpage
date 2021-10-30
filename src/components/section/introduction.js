@@ -3,8 +3,7 @@ import React from 'react';
 const Introduction = () => {
 	return (
 		<section id='introduction' className="section-block">
-			<div className='section-block-background-skew'>
-			</div>
+			<div className='section-block-background-skew'/>
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Introduction</h1>

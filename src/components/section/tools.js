@@ -22,6 +22,7 @@ const Introduction = () => {
 	return (
 		<section id='introduction' className="section-block">
 			<div className='section-block-background-skew'>
+				<img src="images/circle-effect.png" alt="background-effect" className="circle-background-effect"/>
 			</div>
 			<div className='section-block-content'>
 				<div className="heading-block">

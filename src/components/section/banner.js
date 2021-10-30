@@ -4,9 +4,10 @@ const Banner = () => {
 	return (
 		<section id='banner' className="section-block">
 			<div className='section-block-background-skew'>
+				<img src="images/circle-effect.png" alt="background-effect" className="circle-background-effect"/>
 			</div>
 			<div className='section-block-content'>
-				<div className="heading-block">
+				<div className="heading-block header-block-banner">
 					<h1 className='heading-block-title'>Portfolio website</h1>
 				</div>
 
