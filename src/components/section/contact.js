@@ -3,9 +3,8 @@ import React from 'react';
 const Contact = () => {
 	return (
 		<section id='contact' className="section-block section-block-contact">
-			<div className='section-block-background-skew'>
-				<img src="images/circle-effect.png" alt="background-effect" className="circle-background-effect"/>
-			</div>
+			<div className='section-block-background-skew'/>
+			<img src="images/circle-effect.png" alt="background-effect" className="circle-background-effect black-container"/>
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Contact</h1>

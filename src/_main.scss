@@ -163,15 +163,23 @@ html {
         padding: 0;
 
         .circle-background-effect {
-            position: absolute;
-            width: 500px;
-            right: 100px;
-            top: 150px;
-            opacity: 0.2;
+            display: none;
             @media screen and (min-width: $desktop) {
+                display: block;
+                position: absolute;
+                top: 150px;
                 width: 800px;
                 right: -300px;
                 opacity: 0.15;
+            }
+            &.uneven {
+                left: -200px;
+                opacity: 0.08
+            }
+            &.black-container {
+                opacity: 0.08;
+                right: 0;
+                left: 0;
             }
         }
         .introduction-container {

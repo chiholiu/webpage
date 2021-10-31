@@ -24,8 +24,8 @@ const Portfolio = () => {
 
 	return (
 		<section id="websites" className="section-block">
-			<div className="section-block-background-skew">
-			</div>
+			<div className="section-block-background-skew"/>
+			<img src="images/circle-effect.png" alt="background-effect" className="circle-background-effect uneven"/>
 			<div className='section-block-content'>
 				<div className="heading-block">
 					<h1 className='heading-block-title'>Portfolio</h1>
